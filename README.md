@@ -40,6 +40,12 @@ Cheking links from a single file
 
 ![Cheking links from a single file](screenshot_1.png)
 
+Cheking links from files in a directory but only show failed links
+
+    golinks -only-ko -domain https://danielpecos.com
+
+![Cheking links from files in a directory but only show failed links](screenshot_3.png)
+
 # Author
 
 Daniel Pecos Martinez
