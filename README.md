@@ -3,7 +3,7 @@
 
 # golinks
 
-Check URLs liveleness of links from text files
+Check links liveleness in text files
 
 Really useful for static site generators like jekyll, hugo or hexa, as a last minute check before publishing a website. Easy and fast.
 
