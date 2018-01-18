@@ -30,7 +30,7 @@ type Link struct {
 func main() {
 
 	flag.IntVar(&nWorkers, "workers", 10, "Number of workers")
-	flag.StringVar(&mdPath, "path", ".", "Path with MD files to check")
+	flag.StringVar(&mdPath, "path", ".", "Path with text files to check")
 	flag.StringVar(&domain, "domain", "", "Domain to use for relative links")
 	flag.BoolVar(&onlyFailures, "only-ko", false, "Show only failed URLs")
 	flag.Parse()
